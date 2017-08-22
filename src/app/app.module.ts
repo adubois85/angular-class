@@ -3,7 +3,7 @@ import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms";
 import {HttpModule} from "@angular/http";
 import {AppComponent} from "./app.component";
-import {allAppComponents, appRoutingProviders, routing} from "./app.routes";
+import {allAppComponents, appRoutingProviders, routing} from "./app/app.routes";
 
 const moduleDeclarations = [AppComponent];
 
